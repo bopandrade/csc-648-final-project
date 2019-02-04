@@ -1,0 +1,122 @@
+.listing-hero-container {
+  position: relative;
+  margin-bottom: 20px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.listing-hero-container img.hero {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+}
+
+.bottomleft1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.bottomleft2 {
+  position: absolute;
+  bottom: 20px;
+  left: 170px;
+}
+
+.listing-price h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.listing-price button {
+  width: 100%;
+}
+
+.listing-title {
+  margin-top: 0px;
+}
+
+.listing-long-description {
+  border-bottom: 1px solid #eee;
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+.detail-header {
+  text-decoration: underline;
+}
+
+
+/* my listings page */
+
+#my-listings .listing {
+  width: 100%;
+  clear: both;
+  border-bottom: 1px solid #eee;
+}
+
+#my-listings .thumbnail {
+  padding-right: 40px;
+  width: 340px;
+}
+
+#my-listings table {
+  margin-top: 10px;
+}
+
+#my-listings .delete-listing {
+  width: 300px;
+}
+
+#my-listings table {
+  text-align: left;
+}
+
+#my-listings .add-listing-container {
+  float: right;
+}
+
+#my-listings .my-listings-title {
+  display: inline-block;
+}
+
+#my-listings .messages {
+  text-align: left;
+  margin-top: 10px;
+}
+
+#my-listings .message {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+#my-listings .message.last {
+  border-bottom: none;
+}
+
+#my-listings .message-header p {
+  font-weight: bold;
+  display: inline-block;
+}
+
+#my-listings .message-header span {
+  font-size: 12px;
+}
+
+#my-listings .message-header span:before {
+  content: " - ";
+}
+
+#my-listings .contact-container {
+  overflow: auto;
+}
+
+#my-listings .contact-container button {
+  float: right;
+  margin-bottom: 20px;
+}
+
